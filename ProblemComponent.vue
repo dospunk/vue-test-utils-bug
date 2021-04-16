@@ -1,7 +1,11 @@
 <template>
   <div>
       <span v-html="boldNumbers(ageText)"></span>
-      <span><span>this one will be selected but not the other one</span></span>
+      
+      <p v-html="boldNumbers(ageText)"></p>
+      <span>
+        <span>this one will be selected but not the other one</span>
+      </span>
   </div>
 </template>
 
